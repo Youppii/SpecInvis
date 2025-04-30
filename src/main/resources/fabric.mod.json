@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "specinvis",
+  "version": "1.0-SNAPSHOT",
+  "name": "SpecInvis",
+  "description": "Hides spectator heads client-side with a toggle keybind.",
+  "authors": [ "Blockey" ],
+  "contact": {},
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.blockey.specinvis.client.SpecInvisClient"
+    ]
+  },
+  "mixins": [
+    "specinvis.mixins.json"
+  ],
+  "icon": "assets/specinvis/icon.png"
+}
