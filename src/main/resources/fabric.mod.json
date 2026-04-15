@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "specinvis",
-  "version": "1.0-SNAPSHOT",
+  "version": "${version}",
   "name": "SpecInvis",
   "description": "Hides spectator heads client-side with a toggle keybind.",
   "authors": [ "Blockey" ],
@@ -9,7 +9,7 @@
   "depends": {
     "fabricloader": ">=0.15.0",
     "fabric": "*",
-    "minecraft": "1.19.4"
+    "minecraft": "${minecraft_version}"
   },
   "environment": "client",
   "entrypoints": {
